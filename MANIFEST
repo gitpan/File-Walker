@@ -1,0 +1,13 @@
+CHANGES
+Makefile.PL
+MANIFEST
+LICENSE
+README
+SIGNATURE
+TODO
+t/walkerpm.t
+t/skip.t
+t/one_file/test
+t/one_dir_one_file/testdir/test
+lib/File/Walker.pm
+META.yml                                 Module meta-data (added by MakeMaker)

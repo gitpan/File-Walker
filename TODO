@@ -1,0 +1,7 @@
+
+* sort entries before walking them
+* updir(): stop visiting current dir and go one up
+* it's currently slower than File::Find, find out why and fix this
+* File::Find does not chdir() to directories if it can't, but File::Walker
+  will read the contents (why? fix this)
+

@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.36.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It would check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+
+SHA1 df0149ed8cb9a28ae18add5d36dc2740f5851851 CHANGES
+SHA1 145c1f85742ab6397d6f9c4127fb05c3877e97ad LICENSE
+SHA1 a2cbe0b86b62c3d4d5038bb443f1a8c3373a5073 MANIFEST
+SHA1 3eafbe4d77f10ab7a57428024afa984879ddf35e META.yml
+SHA1 0dfae3f3d15186bbc90755624feabbd3aaeb2b5c Makefile.PL
+SHA1 b46003d0b1ceb55ccd751b79388ce2bc7a5c3aa2 README
+SHA1 8d1952caa802e0ee93614b454eadc99adaec53d2 TODO
+SHA1 788fd621f1ca65df05a16e4fd137924597aa9b00 lib/File/Walker.pm
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/one_dir_one_file/testdir/test
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/one_file/test
+SHA1 6273f1667c049ff246afd33c7b983807e6c835a5 t/skip.t
+SHA1 21212086857d95c699937e1ece4b36ece39c058e t/walkerpm.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.2-rc1-SuSE (GNU/Linux)
+Comment: When cryptography is outlawed, bayl bhgynjf jvyy unir cevinpl.
+
+iQEVAwUBQBvl+HcLPEOTuEwVAQEyYQf/QuBDS99YhVBlu+HAfJRbXMgL0IMUTLgI
+Dmp7JqehHFM6e/CdkIwz29CwKiCH7fsO6jWUyfG9EvrQjp5VXX4OLLcENz8Ittqw
+aE47iubhuAQ6+fmPCXdSzls1HnAam9uuOTp5WgYZSFepZP6xy+imo0aMKeAA9bsd
+UBVrXkOcizNys6ldlbh4HBuUTtzgm3C2KKpfEpMKKtW0lS18kmn0T/fxY1a/04qd
+uVbcY0oc2fIPZ2u/mfaY/X/2tRD0trHc5kynBmLOySxRD+mT2F309igcJDDJA/7j
+i9uyOZblR5UZwW5AX/MrRJbn6oR3A/EzQJBqWPuywuy3DMHxyG/3Yg==
+=NfPe
+-----END PGP SIGNATURE-----
