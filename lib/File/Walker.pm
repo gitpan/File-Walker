@@ -5,7 +5,7 @@ use warnings;
 
 use vars qw/$VERSION/;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub SKIP_SYMLINKS ()	{ 0x1; }		# 'l'
 sub SKIP_FILES ()	{ 0x2; }		# 'f'
@@ -247,7 +247,7 @@ __END__
 
 =head1 NAME
 
-File::Walker - Perl extension for blah blah blah
+File::Walker - Walk file trees iteratively (step-by-step)
 
 =head1 SYNOPSIS
 

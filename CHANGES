@@ -6,3 +6,6 @@ Revision history for File::Walker:
     + step(), reset()
     + start(), current(), curdir(), level(), reset(),
     + dirs(), files(), steps()
+2004-11-20 v0.02 Tels 126 tests
+  * fix NAME section in POD
+
